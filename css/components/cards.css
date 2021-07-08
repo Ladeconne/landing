@@ -1,0 +1,25 @@
+.card > img {
+  width: 150px;
+  height: 150px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 15rem;
+}
+
+.card {
+  background-color: #e0b02e11;
+  border: none;
+  width: 220px;
+  padding: 1rem;
+  height: 20rem;
+}
+
+.card h3,
+p {
+  font-size: smaller;
+}
